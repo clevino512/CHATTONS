@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.corps {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.utilisateur {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.utilisateur h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.contacts a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.contenu {
+    width: 65%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenu h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.message {
+    margin-bottom: 20px;
+}
+
+.text {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.Envoyer {
+    width: 100px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles spécifiques aux messages */
+.message {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.message p {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.expediteur p {
+    background-color: #007bff;
+    color: #fff;
+    float: left;
+    clear: both;
+}
+
+.destinataire p {
+    background-color: #f0f0f0;
+    color: #333;
+    float: right;
+    clear: both;
+}
